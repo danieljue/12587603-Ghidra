@@ -68,10 +68,13 @@ analyzeHeadless <project_dir> P59_12587603 \
 
 ## Credits
 
-- LegacyNsfw — Original reverse engineering, IDA scripts, CSV catalog
-- Anonymous hero — Dumpster-dive calibration data
-- PCM Hammer team — Flash kernel, VPW documentation
+- **LegacyNsfw** — Original reverse engineering, IDA scripts, 4,796-entry CSV catalog
+- **Anonymous hero** — Dumpster-dive calibration data
+- **PCM Hammer team** — Flash kernel, VPW protocol documentation
+- **turbo_v6 / bubba2533** — Boost OS V3.4 custom operating system, the inspiration
+  and reference implementation for open12587603
+- **Ghidra community** — Free reverse engineering for everyone
 
 ## License
 
-Same as upstream.
+MIT License — do whatever you want with this. See [LICENSE](LICENSE).
