@@ -73,6 +73,7 @@ analyzeHeadless <project_dir> P59_12587603 \
 - **PCM Hammer team** — Flash kernel, VPW protocol documentation
 - **turbo_v6 / bubba2533** — Boost OS V3.4 custom operating system, the inspiration
   and reference implementation for open12587603
+  ([YouTube](https://www.youtube.com/@turbo_v6) · [Patreon](https://www.patreon.com/turbo_v6) · [pcmhacking.net](https://pcmhacking.net/forums/viewtopic.php?t=8172))
 - **Ghidra community** — Free reverse engineering for everyone
 
 ## License
