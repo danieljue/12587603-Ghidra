@@ -28,11 +28,11 @@ A fully annotated Ghidra project for reverse engineering the GM P59 PCM running 
 ### Option B: Build from scratch
 1. Install Ghidra 11+
 2. Clone this repo
-3. Copy Resources/12587603.csv and ghidra/Import12587603.java to Ghidra's scripts directory
+3. Copy `data/12587603.csv` and `ghidra/Import12587603.java` to Ghidra's scripts directory
 4. Run:
 ```
 analyzeHeadless <project_dir> P59_12587603 \
-  -import 12587603-2004-Corvette-M6.bin \
+  -import binaries/12587603-2004-Corvette-M6.bin \
   -processor "68000:BE:32:default" \
   -loader BinaryLoader -loader-baseAddr 0x0 \
   -postScript Import12587603.java
@@ -60,11 +60,15 @@ analyzeHeadless <project_dir> P59_12587603 \
 
 ## Docs
 
-- [Fuel-Cut RPM Limiter](docs/fuel-cut-rpm-limiter.md) — Function trace + RAM addresses
-- [VPW Protocol Handler](docs/vpw-protocol.md) — Diagnostic mode dispatcher
-- [Flash Kernel Architecture](docs/flash-kernel.md) — PCM Hammer reference
-- [Segment Map](docs/segment-map.md) — Full memory layout
-- [Ghidra Analysis](docs/ghidra-analysis.md) — Initial auto-analysis results
+The full reference is in [docs/](docs/) — see [docs/README.md](docs/README.md) for the index.
+Key files:
+- [Fuel-Cut RPM Limiter](docs/10-fuel-cut-limiter.md) — Function trace + RAM addresses
+- [VPW Protocol Handler](docs/12-vpw-protocol.md) — Diagnostic mode dispatcher
+- [Segment Map](docs/01-segment-map.md) — Full memory layout
+- [Boot & Scheduler](docs/00-boot-and-scheduler.md) — Ghidra analysis results
+- [Flash Kernel](docs/archive/flash-kernel.md) — PCM Hammer reference (legacy)
+
+Old unnumbered docs from the original fork are in [docs/archive/](docs/archive/).
 
 ## Credits
 

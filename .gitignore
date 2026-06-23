@@ -1,9 +1,16 @@
-12587603-2004-Corvette-M6.idc
-12587603-2004-Corvette-M6.asm
-LocalOnly
-CheckPoints
+# IDA Pro files (from original LegacyNsfw fork)
 *.idb
 *.id0
 *.id1
 *.nam
 *.til
+
+# Local-only files
+LocalOnly
+CheckPoints
+
+# Binaries (stock firmware in binaries/)
+binaries/*.bin
+
+# Hermes Agent working files
+.hermes/

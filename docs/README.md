@@ -68,13 +68,13 @@ A complete reference for the GM P59 PCM running OS 12587603 — the universal LS
 ## How to Use
 
 ### With Ghidra
-Load `12587603-2004-Corvette-M6.bin` into Ghidra using processor 68000:BE:32:default at base 0x0. Use `ghidra/Import12587603.java` to import all 4,796 labels from the CSV.
+Load `binaries/12587603-2004-Corvette-M6.bin` into Ghidra using processor 68000:BE:32:default at base 0x0. Use `ghidra/Import12587603.java` to import all 4,796 labels from the CSV.
 
 ### With an AI Agent
 Copy the docs/ folder into the agent's context or skill library. The agent can use the address maps to find anything in the disassembly.
 
 ### Building open12587603
-See [open12587603.py](../open12587603.py) for the patcher. Each feature is documented with exact byte offsets, original instructions, and rationale.
+See [open12587603.py](../tools/open12587603.py) for the patcher. Each feature is documented with exact byte offsets, original instructions, and rationale.
 
 ## Credits
 

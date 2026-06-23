@@ -323,7 +323,7 @@ and wideband input.
 |-----------|--------|
 | Author | danieljue (us) |
 | Language | Python 3 |
-| File | `F:/github/12587603-Ghidra/open12587603.py` |
+| File | `F:/github/12587603-Ghidra/tools/open12587603.py` |
 | License | Open source |
 | Status | V1 functional, V2 rebuild planned |
 
